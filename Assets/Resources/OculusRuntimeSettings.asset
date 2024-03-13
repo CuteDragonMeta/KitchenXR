@@ -18,6 +18,10 @@ MonoBehaviour:
   hasSentConsentEvent: 0
   hasSetTelemetryEnabled: 0
   telemetryEnabled: 0
+<<<<<<< Updated upstream
   telemetryProjectGuid: 9f488c1b-f31d-47a8-b4c6-54e807c2ade5
+=======
+  telemetryProjectGuid: 9fd65dd2-9975-4ecd-aac3-5b75306c28a2
+>>>>>>> Stashed changes
   bodyTrackingFidelity: 1
   bodyTrackingJointSet: 0
