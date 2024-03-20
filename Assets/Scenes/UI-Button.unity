@@ -4492,7 +4492,6 @@ GameObject:
   - component: {fileID: 430948580}
   - component: {fileID: 430948582}
   - component: {fileID: 430948581}
-  - component: {fileID: 430948583}
   m_Layer: 0
   m_Name: ingredients list
   m_TagString: Untagged
@@ -4616,19 +4615,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430948579}
   m_CullTransparentMesh: 1
---- !u!114 &430948583
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 430948579}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6459cfe6537f4634d960d46056d44e9f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ingredients: {fileID: 0}
 --- !u!1 &435836304
 GameObject:
   m_ObjectHideFlags: 0
@@ -6484,7 +6470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6459cfe6537f4634d960d46056d44e9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ingredients: {fileID: 0}
+  ingredients: {fileID: 430948581}
 --- !u!1 &617347608
 GameObject:
   m_ObjectHideFlags: 0

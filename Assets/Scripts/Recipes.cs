@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
@@ -8,9 +9,8 @@ using UnityEngine.UI;
 public class Recipes : MonoBehaviour
 {
     
-    
-    [SerializeField] 
-    private Text ingredients;
+        
+     public TextMeshProUGUI ingredients;
     String[] Foodlist = {
         "Hetta upp olja i en gryta, stek lök, vitlök, chili och tomatpuré under omrörning någon minut. Tillsätt resten av ingredienserna och låt koka under lock ca 15 min. Skölj av bönorna i kallt vatten och häll i grytan. Låt sjuda ytterligare 5 min.",
         "Koka upp buljongen och häll upp i termos. Lägg i ingefäran. Strimla salladslök och chili. Grovhacka koriandern. Skär tofun i små tärningar och lägg tillsammans med alla grönsaker och nudlar i 2 burkar med lock (som man kan äta direkt ur.) Eller lägg i 2 skålar. Häll över buljongen vid servering. Låt stå någon minut så att nudlarna hinner svälla innan soppan ska ätas.",
